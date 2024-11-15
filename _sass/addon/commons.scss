@@ -750,13 +750,15 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
+      // color: var(--site-title-color);
+      color: rgba(254, 254, 254, 99%);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
     color: var(--site-subtitle-color);
+    // color: rgba(254, 254, 254, 99%);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -875,6 +877,12 @@ $btn-mb: 0.5rem;
       margin-bottom: $btn-mb;
     }
   } /* .sidebar-bottom */
+
+  // 백그라운드 사진 설정
+  background: url('/assets/img/city_sidebar.png');
+  background-size: 100% 100%;
+  background-position: center;
+
 } /* #sidebar */
 
 @media (hover: hover) {
